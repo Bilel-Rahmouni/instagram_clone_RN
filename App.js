@@ -12,8 +12,8 @@ import rootReducer from "./redux/reducers";
 import thunk from "redux-thunk";
 import MainScreen from "./components/Main";
 import AddScreen from "./components/main/Add";
-const store = createStore(rootReducer, applyMiddleware(thunk));
 
+const store = createStore(rootReducer, applyMiddleware(thunk));
 const Stack = createNativeStackNavigator();
 const firebaseConfig = {
   apiKey: "AIzaSyAJbwRVdmKYZpCr3veF4s4ZSfe-XHCsQtE",
